@@ -86,6 +86,7 @@ function App() {
  
   return (
       <div className = "main-box">
+        <div className = "logo">CalcSimp</div>
         <button className="button1" onClick={printHistory}>Back</button>
         <button className="button1" onClick={reset}>AC</button>
         <br/><br/>
