@@ -1,12 +1,61 @@
-# React + Vite
+🧮 Calculator App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet functional Calculator built with React + Vite.
+It performs basic arithmetic operations (Addition, Subtraction, Multiplication, Division) on two numbers.
+The app also includes a History feature (like the "Back" button on a normal calculator) and a Reset button that clears everything back to zero.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Addition of two numbers
 
-## Expanding the ESLint configuration
+➖ Subtraction of two numbers
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✖️ Multiplication of two numbers
+
+➗ Division of two numbers
+
+📜 History Functionality → Navigate back through previous calculations
+
+🔄 Reset Button → Clears all input and results back to default state
+
+🛠️ Tech Stack
+
+React (Frontend UI)
+
+Vite (Blazing fast build tool with HMR)
+
+CSS (Basic styling, customizable)
+
+📂 Project Setup
+
+Clone the repository
+
+git clone https://github.com/your-username/calculator-app.git
+cd calculator-app
+
+
+Install dependencies
+
+npm install
+
+
+Run the development server
+
+npm run dev
+
+
+Build for production
+
+npm run build
+
+🎯 Usage
+
+Enter two numbers in the input fields.
+
+Choose the operation: Add, Subtract, Multiply, Divide.
+
+The result will be displayed instantly.
+
+Use the Back/History button to undo and see previous results.
+
+Use the Reset button to clear everything back to zero.
