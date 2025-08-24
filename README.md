@@ -1,61 +1,41 @@
-🧮 Calculator App (React + Vite)
+# 🧮 CalcSimp  
 
-A simple yet functional Calculator built with React + Vite.
-It performs basic arithmetic operations (Addition, Subtraction, Multiplication, Division) on two numbers.
-The app also includes a History feature (like the "Back" button on a normal calculator) and a Reset button that clears everything back to zero.
+**CalcSimp** is a simple and interactive calculator web application.  
+It allows users to perform **basic arithmetic operations** quickly with a clean, responsive, and user-friendly interface.  
 
-🚀 Features
+---
 
-➕ Addition of two numbers
+## ✨ Features  
+- ➕ Perform addition, subtraction, multiplication, and division  
+- 🎨 Sleek, modern, and responsive UI  
+- ⚡ Fast and lightweight app built with React + Vite  
+- ⌨️ Keyboard input support for quick calculations  
+- 📝 Calculation history feature (optional future extension)  
 
-➖ Subtraction of two numbers
+---
 
-✖️ Multiplication of two numbers
+## 🚀 Future Developments  
+- 🧠 Scientific calculator functions (sin, cos, log, etc.)  
+- 🌓 Dark/Light mode toggle  
+- 💾 Save and manage calculation history  
+- 🔢 More advanced math functions (factorial, square root, etc.)  
 
-➗ Division of two numbers
+---
 
-📜 History Functionality → Navigate back through previous calculations
+## 🛠️ Tech Stack  
+- ⚛️ **React**  
+- ⚡ **Vite**  
+- 📜 **JavaScript (ES6+)**  
+- 🎨 **CSS3** 
 
-🔄 Reset Button → Clears all input and results back to default state
+---
 
-🛠️ Tech Stack
+## 📖 Getting Started  
 
-React (Frontend UI)
+Clone the repository and run the following commands:  
 
-Vite (Blazing fast build tool with HMR)
-
-CSS (Basic styling, customizable)
-
-📂 Project Setup
-
-Clone the repository
-
-git clone https://github.com/your-username/calculator-app.git
-cd calculator-app
-
-
-Install dependencies
-
+```bash
+git clone <repo-url>
+cd CalcSimp
 npm install
-
-
-Run the development server
-
 npm run dev
-
-
-Build for production
-
-npm run build
-
-🎯 Usage
-
-Enter two numbers in the input fields.
-
-Choose the operation: Add, Subtract, Multiply, Divide.
-
-The result will be displayed instantly.
-
-Use the Back/History button to undo and see previous results.
-
-Use the Reset button to clear everything back to zero.
